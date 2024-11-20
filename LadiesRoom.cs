@@ -19,8 +19,12 @@ public class LadiesRoom:Location
                 break;                       
             case("drink booze"):
                 Console.WriteLine("Glug glug glug");
-                new LadiesRoom(_player); // unnecesary...
-                // _menu.PrintOptions();
+                new LadiesRoom(_player);
+                break;
+            case "pick up bottle":
+                _player.Inventory.Items.Add("bottle");
+                _player.Inventory.Print();
+                new LadiesRoom(_player);
                 break;
         }                                                
     }      
