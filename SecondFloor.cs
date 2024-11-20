@@ -20,7 +20,7 @@ public class SecondFloor:Location
                 new LadiesRoom(_player);
                 break;
             case("look in bag"):
-                // enter bag? have logic here?
+                new Bag(_player);
                 break;
         }
     }
