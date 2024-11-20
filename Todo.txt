@@ -6,5 +6,5 @@
    Dina actions tar tid, och du måste hinna till stationen innan tåget går 07.10.
 - I Escalator, om larmet går, förlorar spelaren.
 - M: Skapa funktionalitet där Player kan mata in en larmkod i terminal på FirstFloor.
-- Skapa event på SecondFloor där Player hittar en "fusk-lapp" med larmkoden på. En säkerhetsvakt som är ny på jobbet har tappat den där?
+- M: Skapa event på SecondFloor där Player hittar en "fusk-lapp" med larmkoden på. En säkerhetsvakt som är ny på jobbet har tappat den där?
 - Utöka switch cases med fler val och alternativ(actions/items)
