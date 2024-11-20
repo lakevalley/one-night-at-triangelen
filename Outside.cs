@@ -21,7 +21,11 @@ public class Outside:Location
             case("steal jacket"):
                 Console.WriteLine("You shouldn't have done that. He is much stronger than you, in your poor state. He puts you under for at least 24 hours.");
                 break;
-            
+            case "trade":
+                _player.Inventory.Items.Remove("bottle");
+                _player.Inventory.Items.Add("jacket");
+                new Outside(_player);
+                break;
         }
     }
 }
