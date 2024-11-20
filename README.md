@@ -40,6 +40,9 @@
  - **Checkout from all branches/reset**  
   `git checkout *`
 
+- **View all branches**  
+  `git branch -a`
+
   ---
 
   ## 3. Adding, Committing, and Pushing Changes
