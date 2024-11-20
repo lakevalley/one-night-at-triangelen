@@ -7,3 +7,4 @@
 - I Escalator, om larmet går, förlorar spelaren.
 - Skapa funktionalitet där Player kan mata in en larmkod i terminal på FirstFloor.
 - Skapa event på SecondFloor där Player hittar en "fusk-lapp" med larmkoden på. En säkerhetsvakt som är ny på jobbet har tappat den där?
+- Utöka switch cases med fler val och alternativ(actions/items)
