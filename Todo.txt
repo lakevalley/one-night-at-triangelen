@@ -1,10 +1,10 @@
 ﻿Todo:
-- Utöka och förtydliga storyn inom Console.WriteLine();
+- R: Utöka och förtydliga storyn inom Console.WriteLine();
 - Skapa en möjlighet där Player kan välja att plocka upp spritflaskan i LadiesRoom Inventory.Add(spritflaska)
-- Skapa ett case: i Outside.cs där Player kan byta spritflaska mot sin jacka (Inventory.Add(Jacket);)
-- Skapa en "klocka" eller tidsindikator där varje rörelse till en ny Location uppdaterar klockan.
+- A: Skapa ett case: i Outside.cs där Player kan byta spritflaska mot sin jacka (Inventory.Add(Jacket);)
+- D: Skapa en "klocka" eller tidsindikator där varje rörelse till en ny Location uppdaterar klockan.
    Dina actions tar tid, och du måste hinna till stationen innan tåget går 07.10.
 - I Escalator, om larmet går, förlorar spelaren.
-- Skapa funktionalitet där Player kan mata in en larmkod i terminal på FirstFloor.
-- Skapa event på SecondFloor där Player hittar en "fusk-lapp" med larmkoden på. En säkerhetsvakt som är ny på jobbet har tappat den där?
+- M: Skapa funktionalitet där Player kan mata in en larmkod i terminal på FirstFloor.
+- M: Skapa event på SecondFloor där Player hittar en "fusk-lapp" med larmkoden på. En säkerhetsvakt som är ny på jobbet har tappat den där?
 - Utöka switch cases med fler val och alternativ(actions/items)
