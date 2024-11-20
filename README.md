@@ -1,5 +1,5 @@
 ## Important Notice 
-- **Make sure to commit a .gitignore file when creating your repo**  
+- **Make sure to commit a .gitignore file when creating your repo:**  
   `https://gist.github.com/drch-/00d98ab2b93b930f55e0f7c62abc4af2`
 
 ## 1. Basic Commands
@@ -34,7 +34,7 @@
   `git branch -d <branch_name>`  
   *(Use `-D` to force delete without checking if it's merged)*
 
-  - **Change working branch**  
+- **Change working branch**  
   `git checkout <branch_name>`
 
  - **Checkout from all branches/reset**  
@@ -46,15 +46,15 @@
 - **Add changes to staging (specific file):**  
   `git add <file_name>`
   
-- **Add all changes to staging:**  
-  `git add .`
-
-- **Commit changes:**  
-  `git commit -m "Your commit message"`
-
-  - **Shortcut: add + commit in the same command:**  
+- **Shortcut: Add + Commit in the same command:**  
   `git commit -am "Your commit message"`
     **(Cannot be used when adding new files)**
+
+  - **Add all changes to staging:**  
+  `git add .`
+
+  - **Commit changes:**  
+  `git commit -m "Your commit message"`
 
 - **Push changes (in current branch):**  
   `git push`
