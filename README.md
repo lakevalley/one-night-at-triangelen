@@ -12,8 +12,12 @@
 - **Check commit history:**  
   `git log` (Press q to exit log mode)
   
-- **Show current branch/list all:**  
+- **Show current branch:**  
   `git branch`
+
+- **Show all branches:**  
+  `git branch -a`
+
 
   ---
 
@@ -27,12 +31,12 @@
 - **Switch to another branch:**  
   `git checkout <branch_name>`
   
-- **Create and switch to a new branch (shortcut):**  
+- **Shortcut: Create and switch to a new branch:**  
   `git checkout -b <branch_name>`
   
 - **Delete a branch (local):**  
   `git branch -d <branch_name>`  
-  *(Use `-D` to force delete without checking if it's merged)*
+  *(Use `-D` to force delete without checking if it's merged, and discarding changes)*
 
 - **Change working branch**  
   `git checkout <branch_name>`
@@ -72,29 +76,29 @@
 
 ## 4. Merging Changes
 
-- **Make sure both branches have a clean head:**
+1. **Make sure both branches have a clean head:**
   `git status`
   **For each branch**
 
-- **Checkout the branch you are working on**
+2. **Checkout the branch you are working on**
   `git checkout <branch_name>`
   
-- **Merge main into your current branch:**  
+3. **Merge main into your current branch:**  
   `git merge main`
   
   *(Merges the specified branch (main) into the branch you're currently on.)*
 
-- **Resolve merge conflicts:**  
+4. **Resolve merge conflicts:**  
   When conflicts occur during a merge, Git will mark the files with conflicts. You’ll need to edit the files manually, remove conflict markers, and then **add** and **commit** the resolved files:
   `git add <file_name>`
   `git commit`
 
-- **Test the code for errors**
+5. **Test the code for errors**
 
-- **After conflicts are respolved, and code is tested:**  
+6. **After conflicts are respolved, and code is tested:**  
   `git push`
 
-- **Now checkout main and merge your working branch into main** 
+7. **Now checkout main and merge your working branch into main** 
   `git checkout main`
   `git merge <branch_name>`
   `git push`
@@ -111,5 +115,7 @@
 
 - **Reset all changes (in branch) to last committed state**  
   `git reset .`
-
+  
+- **Checkout from all branches/reset**  
+  `git checkout *`
   
