@@ -68,16 +68,35 @@
   ---
 
 ## 4. Merging Changes
-- **Merge a branch into your current branch:**  
-  `git merge <branch_name>`
+
+- **Make sure both branches have a clean head:**
+  `git status`
+  **For each branch**
+
+- **Checkout the branch you are working on**
+  `git checkout <branch_name>`
   
-  *(Merges the specified branch into the branch you're currently on.)*
+- **Merge main into your current branch:**  
+  `git merge main`
+  
+  *(Merges the specified branch (main) into the branch you're currently on.)*
 
 - **Resolve merge conflicts:**  
   When conflicts occur during a merge, Git will mark the files with conflicts. You’ll need to edit the files manually, remove conflict markers, and then **add** and **commit** the resolved files:
   `git add <file_name>`
   `git commit`
 
+- **Test the code for errors**
+
+- **After conflicts are respolved, and code is tested:**  
+  `git push`
+
+- **Now checkout main and merge your working branch into main** 
+  `git checkout main`
+  `git merge <branch_name>`
+  `git push`
+  **done**
+  
   ---
 
   ## 4. Reset & undo
